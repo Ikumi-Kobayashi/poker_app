@@ -1,0 +1,18 @@
+<h1>ポーカー役判定システム</h1>
+
+  <%= form_tag({ :controller => 'poker', :action => 'check' }, { :method => :post} ) do %>
+
+
+    <%= text_field_tag "cards"  %><br>
+    <%= submit_tag "check" %><br>
+
+
+  <% end %>
+
+
+  <% if @error_message.present? %>
+    <%= @error_message %>
+  <% end %>
+　<% if @result.present? && @error_message.blank? %>
+    <%= @cards %> => <%= @result %>
+  <% end %>
