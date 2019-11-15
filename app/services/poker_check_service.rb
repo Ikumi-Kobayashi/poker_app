@@ -46,8 +46,12 @@ module PokerCheckService
             @error_message = @error_message_n
           end
         #カードの重複
-       else  @card.count - @card.uniq.count > 0
-         @error_message = "カードが重複しています。"
+          if @card[0] == @card[1] or @card[0] == @card[2] or @card[0] == @card[3] or @card[0] == @card[4] or
+             @card[1] == @card[2] or @card[1] == @card[3] or @card[1] == @card[4] or
+             @card[2] == @card[3] or @card[2] == @card[4] or
+             @card[3] == @card[4]
+            @error_message = "カードが重複しています。"
+          end
        end
        @error_message
     end
@@ -79,7 +83,7 @@ module PokerCheckService
       elsif suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
             @result = "フラッシュ"
         #ペア系
-        #フォーオブカインドのロジック
+        #フォーオブアカインドのロジック
       elsif numbers_sort[0] == numbers_sort[1] && numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3]
             @result = "フォーオブアカインド"
       elsif numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3] && numbers_sort[3] == numbers_sort[4]
