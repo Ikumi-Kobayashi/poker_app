@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 
+
 #こんな感じでうまく動いてるから、後はどんな例で試すか決めて書いていくだけ！
 RSpec.describe PokerCheckService do
   describe '#error' do
