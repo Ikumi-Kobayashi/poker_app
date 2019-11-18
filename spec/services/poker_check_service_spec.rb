@@ -4,15 +4,15 @@ require 'rails_helper'
 #こんな感じでうまく動いてるから、後はどんな例で試すか決めて書いていくだけ！
 RSpec.describe PokerCheckService do
   describe '#error' do
-    it 'カードが５個じゃないとき' do
+    it 'カードが0個のとき' do
       poker_check_service = PokerCheckService::PokerCheckService.new("")
       expect(poker_check_service.error).to eq "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"
     end
-    it 'カードが５個じゃないとき' do
+    it 'カードが1〜４個のとき' do
       poker_check_service = PokerCheckService::PokerCheckService.new("S12")
       expect(poker_check_service.error).to eq "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"
     end
-    it 'カードが５個じゃないとき' do
+    it 'カードが５個以上のとき' do
       poker_check_service = PokerCheckService::PokerCheckService.new("S1 S2 S3 S4 S5 S6")
       expect(poker_check_service.error).to eq "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"
     end
@@ -103,6 +103,8 @@ RSpec.describe PokerCheckService do
       poker_check_service = PokerCheckService::PokerCheckService.new("D7 D3 D6 D11 C1")
       expect(poker_check_service.result).to eq "ハイカード"
     end
+
+
 
   end
 
