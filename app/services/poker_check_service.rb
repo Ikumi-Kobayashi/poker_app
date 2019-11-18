@@ -46,10 +46,7 @@ module PokerCheckService
             @error_message = @error_message_n
           end
         #カードの重複
-          if @card[0] == @card[1] or @card[0] == @card[2] or @card[0] == @card[3] or @card[0] == @card[4] or
-             @card[1] == @card[2] or @card[1] == @card[3] or @card[1] == @card[4] or
-             @card[2] == @card[3] or @card[2] == @card[4] or
-             @card[3] == @card[4]
+          if @card.count - @card.uniq.count > 0
             @error_message = "カードが重複しています。"
           end
        end
