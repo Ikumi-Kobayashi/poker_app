@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/poker5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/poker5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb" afterDir="false" />
+    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。&#10;include PokerCheckServiceを">
+      <change beforePath="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -77,16 +73,16 @@
           <entry key="Gemfile" value="5" />
           <entry key="erb" value="1064" />
           <entry key="poker_check_service" value="137" />
-          <entry key="rb" value="11751" />
+          <entry key="rb" value="11774" />
           <entry key="scss" value="84" />
-          <entry key="txt" value="71" />
+          <entry key="txt" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="PLAIN_TEXT" value="200" />
           <entry key="RHTML" value="1064" />
-          <entry key="Ruby" value="11893" />
+          <entry key="Ruby" value="11916" />
           <entry key="SCSS" value="84" />
         </counts>
       </usages-collector>
@@ -143,20 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state relative-caret-position="120">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -204,10 +200,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/services/poker_check_service.rb" />
-        <option value="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/poker_controller.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" />
       </list>
     </option>
   </component>
@@ -471,7 +467,7 @@
       <workItem from="1573807591761" duration="151000" />
       <workItem from="1574049267130" duration="7364000" />
       <workItem from="1574059294590" duration="463000" />
-      <workItem from="1574059762870" duration="498000" />
+      <workItem from="1574059762870" duration="786000" />
     </task>
     <task id="LOCAL-00001" summary="重複の書き方を一行にしました。">
       <created>1574051405184</created>
@@ -487,11 +483,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574051933760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。レビューお願いします。">
+      <created>1574060377958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060377958</updated>
+    </task>
+    <task id="LOCAL-00004" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。">
+      <created>1574060477761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060477761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136785000" />
+    <option name="totallyTimeSpent" value="137073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,14 +567,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重複の書き方を一行にしました。" />
     <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。レビューお願いします。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。" />
+    <option name="LAST_COMMIT_MESSAGE" value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -751,13 +763,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/poker/check.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -772,17 +777,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
