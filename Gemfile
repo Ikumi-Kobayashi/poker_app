@@ -63,3 +63,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rabl'
 gem 'grape'
+gem 'devise'
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails", "~> 4.4.1"
+  gem 'rails-controller-testing'
+end
+
+group :test do
+  gem "faker"
+end
