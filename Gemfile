@@ -63,6 +63,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rabl'
 gem 'grape'
+gem 'grape-entity'
 gem 'devise'
 
 group :development, :test do
