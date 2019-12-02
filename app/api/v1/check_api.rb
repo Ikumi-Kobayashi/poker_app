@@ -10,7 +10,6 @@ module V1
 
     resources :check_api do
       post '/' do
-        api_result = {}
         cards = params[:cards]
         error_message_array = []
         result_array = []
@@ -35,7 +34,7 @@ module V1
         end
 
 #全部の手札がエラーの時 エラーもあるしresultもある　全部の手札がresultの時  zipメソッドめちゃくちゃ便利(インデックス番号を合わせたら)
-
+        api_result = {}
         api_result[:result] = []
         api_result[:error] = []
 
