@@ -34,49 +34,35 @@ module V1
         end
 
 #全部の手札がエラーの時 エラーもあるしresultもある　全部の手札がresultの時  zipメソッドめちゃくちゃ便利(インデックス番号を合わせたら)
-        api_result = {}
-        api_result[:result] = []
-        api_result[:error] = []
-
-        card_array.zip(error_message_array, result_array, strong_number_array) do |card, error_message, result, s|
+        strong_number_array.each do |s|
           if s == strong_number_array.min
             best = "true"
           else
             best = "false"
           end
+        end
+
+        api_result = {}
+        api_result[:result] = []
+        api_result[:error] = []
+
+        card_array.zip(error_message_array, result_array, strong_number_array) do |card, error_message, result|
+
           #エラーだけの時
-          if error_message.present? && result.blank?
+          if error_message.present?
             api_result[:error].push(
                 {
                     "card": card,
                     "msg": error_message
-                }
-            )
-            #エラーも結果も両方ある時
-          elsif error_message.present? && result.present?
-            api_result[:result].push(
+                })
+          else result.present?
+             api_result[:result].push(
                 {
                     "card": card,
                     "hand": result,
                     "best": best
                 }
-            )
-            api_result[:error].push(
-                {
-                    "card": card,
-                    "msg": error_message
-                }
-            )
-            #結果だけある時
-          else error_message.blank? && result.present?
-
-          api_result[:result].push(
-              {
-                  "card": card,
-                  "hand": result,
-                  "best": best
-              }
-          )
+             )
           end
 
         end
