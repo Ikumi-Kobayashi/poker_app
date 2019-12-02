@@ -30,7 +30,6 @@ RSpec.describe Check do
       expect(card_array).to eq ["S2 S3 S4 S5 S6", "C3 C6 C1 C9 C12", nil]
     end
   end
-
   # describe 'api_result' do
   #   before do
   #     @api_result = {}
