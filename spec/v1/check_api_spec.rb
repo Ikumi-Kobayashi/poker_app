@@ -2,9 +2,9 @@ require 'rails_helper'
 
 include V1
 
-#poker_check_service_api.rbでサービスがうまく機能していることは確認済み
+#poker_check_service.rbでサービスがうまく機能していることは確認済み
 
-RSpec.describe Check do
+RSpec.describe Check, type: :request do
   describe 'error_message_arrayの中身' do
     it '２個あった時にちゃんと配列になってるか' do
       error_message_array = []
@@ -30,27 +30,4 @@ RSpec.describe Check do
       expect(card_array).to eq ["S2 S3 S4 S5 S6", "C3 C6 C1 C9 C12", nil]
     end
   end
-  # describe 'api_result' do
-  #   before do
-  #     @api_result = {}
-  #     @api_result[:result] = []
-  #     @api_result[:error] = []
-  #   end
-  #   context 'エラーだけの時' do
-  #     it 'ちゃんと表示される？'
-  #     @api_result[:error].push(
-  #         {
-  #             "card": "D3 D3 D4 D5 D6",
-  #             "msg": "カードが重複しています。"
-  #         }
-  #     )
-  #     @api_result[:error].push(
-  #         {
-  #             "card": "",
-  #             "msg": "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"
-  #         }
-  #     )
-  #     expect(@api_result).to eq
-  #   end
-  # end
 end

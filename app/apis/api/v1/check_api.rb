@@ -2,7 +2,7 @@ module V1
   class Check_Api < Grape::API
 
     include PokerCheckService
-    include Entity::V1::ResponseEntity
+    include Entity::V1
 
     format :json
 
@@ -36,18 +36,16 @@ module V1
         end
 
         #最強カードを決める
-        strong_number_array.each do |s|
+
+        api_result = {}
+        api_result[:result] = []
+        api_result[:error] = []
+        card_array.zip(error_message_array, result_array, strong_number_array) do |card, error_message, result, s|
           if s == strong_number_array.min
             best = "true"
           else
             best = "false"
           end
-        end
-
-        api_result = {}
-        api_result[:result] = []
-        api_result[:error] = []
-        card_array.zip(error_message_array, result_array) do |card, error_message, result|
           if error_message.present?
             api_result[:error].push(
                 {
