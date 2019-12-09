@@ -46,8 +46,9 @@ module PokerCheckService
             @error_message = @error_message_n
           end
         #カードの重複
-       else  @card.count - @card.uniq.count > 0
-         @error_message = "カードが重複しています。"
+          if @card.count - @card.uniq.count > 0
+            @error_message = "カードが重複しています。"
+          end
        end
        @error_message
     end
@@ -79,7 +80,7 @@ module PokerCheckService
       elsif suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
             @result = "フラッシュ"
         #ペア系
-        #フォーオブカインドのロジック
+        #フォーオブアカインドのロジック
       elsif numbers_sort[0] == numbers_sort[1] && numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3]
             @result = "フォーオブアカインド"
       elsif numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3] && numbers_sort[3] == numbers_sort[4]
@@ -117,6 +118,29 @@ module PokerCheckService
             @result = "ハイカード"
       end
       @result
+    end
+
+    def strong
+      if  @result == "ストレートフラッシュ"
+        @strong_number = 1
+      elsif  @result == "フォーオブアカインド"
+        @strong_number = 2
+      elsif @result == "フルハウス"
+        @strong_number = 3
+      elsif @result == "フラッシュ"
+        @strong_number = 4
+      elsif @result == "ストレート"
+        @strong_number = 5
+      elsif @result == "スリーオブアカインド"
+        @strong_number = 6
+      elsif @result == "ツーペア"
+        @strong_number = 7
+      elsif @result == "ワンペア"
+        @strong_number = 8
+      else @result == "ハイカード"
+      @strong_number = 9
+      end
+      @strong_number
     end
 
   end
