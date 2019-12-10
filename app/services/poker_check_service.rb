@@ -121,30 +121,29 @@ module PokerCheckService
     end
 
     def strong
-      if  @result == "ストレートフラッシュ"
+      case @result
+      when "ストレートフラッシュ"
         @strong_number = 1
-      elsif  @result == "フォーオブアカインド"
+      when "フォーオブアカインド"
         @strong_number = 2
-      elsif @result == "フルハウス"
+      when "フルハウス"
         @strong_number = 3
-      elsif @result == "フラッシュ"
+      when "フラッシュ"
         @strong_number = 4
-      elsif @result == "ストレート"
+      when "ストレート"
         @strong_number = 5
-      elsif @result == "スリーオブアカインド"
+      when "スリーオブアカインド"
         @strong_number = 6
-      elsif @result == "ツーペア"
+      when "ツーペア"
         @strong_number = 7
-      elsif @result == "ワンペア"
+      when "ワンペア"
         @strong_number = 8
-      else @result == "ハイカード"
-      @strong_number = 9
+      when "ハイカード"
+        @strong_number = 9
       end
-      @strong_number
+
     end
-
   end
-
 end
 
 
