@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/poker_check_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/poker_check_service.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -81,16 +80,16 @@
           <entry key="Gemfile" value="6" />
           <entry key="erb" value="1064" />
           <entry key="poker_check_service" value="137" />
-          <entry key="rb" value="19106" />
+          <entry key="rb" value="19212" />
           <entry key="scss" value="84" />
-          <entry key="txt" value="629" />
+          <entry key="txt" value="654" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="629" />
+          <entry key="PLAIN_TEXT" value="654" />
           <entry key="RHTML" value="1064" />
-          <entry key="Ruby" value="19249" />
+          <entry key="Ruby" value="19355" />
           <entry key="SCSS" value="84" />
         </counts>
       </usages-collector>
@@ -149,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="375">
+              <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -547,7 +546,7 @@
       <workItem from="1575616277139" duration="2615000" />
       <workItem from="1575863327928" duration="4075000" />
       <workItem from="1575869612792" duration="7501000" />
-      <workItem from="1575946609873" duration="1601000" />
+      <workItem from="1575946609873" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="重複の書き方を一行にしました。">
       <created>1574051405184</created>
@@ -661,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575947981356</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。">
+      <created>1575948582485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575948582485</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214924000" />
+    <option name="totallyTimeSpent" value="215457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,7 +751,8 @@
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。" />
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。&#10;nil後のスペースを消しました。" />
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        <state relative-caret-position="375">
+          <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
         </state>
       </provider>
     </entry>
