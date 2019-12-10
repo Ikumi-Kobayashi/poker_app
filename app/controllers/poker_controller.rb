@@ -8,10 +8,10 @@ class PokerController < ApplicationController
 
   def check
     check_service = PokerCheckService.new(params[:cards])
-    @error_message = check_service.error
+    @error_message = check_service.valid?
       if @error_message.nil?
          judge_service = PokerCheckService.new(params[:cards])
-         @result = judge_service.result
+         @result = judge_service.judge
          @cards = params[:cards]
       end
   end

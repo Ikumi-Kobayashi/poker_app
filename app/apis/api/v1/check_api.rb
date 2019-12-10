@@ -1,5 +1,5 @@
 module V1
-  class Check_Api < Grape::API
+  class CheckApi < Grape::API
 
     include PokerCheckService
     include Entity::V1
@@ -13,25 +13,25 @@ module V1
     resources :check_api do
       post '/' do
         cards = params[:cards]
-        error_message_array = []
-        result_array = []
-        strong_number_array = []
+        error_messages = []
+        results = []
+        strong_numbers = []
         card_array = []
         cards.each do |card|
           check_service = PokerCheckService.new(card)
-          @error_message = check_service.error
+          @error_message = check_service.valid?
           card_array.push(card)
           if @error_message.present?
-            error_message_array.push(@error_message)
-            result_array.push(nil )
-            strong_number_array.push(10 )
+            error_messages.push(@error_message)
+            results.push(nil)
+            strong_numbers.push(10)
           else
-            error_message_array.push(nil)
+            error_messages.push(nil)
             judge_service = PokerCheckService.new(card)
-            @result = judge_service.result
+            @result = judge_service.judge
             @strong_number = judge_service.strong
-            result_array.push(@result)
-            strong_number_array.push(@strong_number)
+            results.push(@result)
+            strong_numbers.push(@strong_number)
           end
         end
 
@@ -40,8 +40,8 @@ module V1
         api_result = {}
         api_result[:result] = []
         api_result[:error] = []
-        card_array.zip(error_message_array, result_array, strong_number_array) do |card, error_message, result, s|
-          if s == strong_number_array.min
+        card_array.zip(error_messages, results, strong_numbers) do |card, error_message, result, s|
+          if s == strong_numbers.min
             best = "true"
           else
             best = "false"

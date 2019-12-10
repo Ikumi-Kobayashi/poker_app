@@ -3,7 +3,7 @@ require 'rails_helper'
 include V1
 
 #不正なURLの時
-RSpec.describe Check_Api, type: :request do
+RSpec.describe CheckApi, type: :request do
   describe 'ステータスコード' do
    it '404ページを読み込む(URLがおかしい)' do
      post '/api/v1/posts'

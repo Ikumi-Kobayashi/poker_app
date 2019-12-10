@@ -8,6 +8,11 @@ module Base
     route :any, '*path' do
       error!({error: "404 Not Found：不正なURLです。"}, 404)
     end
-    mount V1::Root_Api
+
+    #500の時（それ以外のエラー全部”予期しないエラーです”）
+    rescue_from Exception do
+      error!({error: "500 Internal Server Error：予期しないエラーです"}, 500)
+    end
+    mount V1::RootApi
   end
 end
