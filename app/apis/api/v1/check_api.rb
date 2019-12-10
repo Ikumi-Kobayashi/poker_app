@@ -1,5 +1,5 @@
 module V1
-  class Check_Api < Grape::API
+  class CheckApi < Grape::API
 
     include PokerCheckService
     include Entity::V1
