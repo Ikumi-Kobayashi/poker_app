@@ -9,7 +9,7 @@ module PokerCheckService
     end
 
 
-    def error
+    def valid?
         #カードが５個未満
        if @card[0] == nil or @card[1] == nil or @card[2] == nil or @card[3] == nil or @card[4] == nil
          @error_message = "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"
@@ -46,13 +46,14 @@ module PokerCheckService
             @error_message = @error_message_n
           end
         #カードの重複
-       else  @card.count - @card.uniq.count > 0
-         @error_message = "カードが重複しています。"
+          if @card.uniq.count != @card.count
+            @error_message = "カードが重複しています。"
+          end
        end
        @error_message
     end
 
-    def result
+    def judge
        #変数定義
       suits = [ @card[0][0] , @card[1][0] , @card[2][0] , @card[3][0] , @card[4][0] ]
       numbers = [ @card[0][1,2].to_i , @card[1][1,2].to_i , @card[2][1,2].to_i , @card[3][1,2].to_i , @card[4][1,2].to_i ]
@@ -62,11 +63,11 @@ module PokerCheckService
           numbers_sort[3] == numbers_sort[2] + 1 &&
           numbers_sort[2] == numbers_sort[1] + 1 &&
           numbers_sort[1] == numbers_sort[0] + 1 &&
-          suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-          @result = "ストレートフラッシュ"
+          suits.uniq.size == 1
+        @result = "ストレートフラッシュ"
       elsif numbers_sort == [1,10,11,12,13] &&
-            suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-            @result = "ストレートフラッシュ"
+            suits.uniq.size == 1
+        @result = "ストレートフラッシュ"
         #ストレートのロジック
       elsif numbers_sort[4] == numbers_sort[3] + 1 &&
             numbers_sort[3] == numbers_sort[2] + 1 &&
@@ -76,10 +77,10 @@ module PokerCheckService
       elsif numbers_sort == [1,10,11,12,13]
             @result = "ストレート"
         #フラッシュのロジック
-      elsif suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-            @result = "フラッシュ"
+      elsif suits.uniq.size == 1
+        @result = "フラッシュ"
         #ペア系
-        #フォーオブカインドのロジック
+        #フォーオブアカインドのロジック
       elsif numbers_sort[0] == numbers_sort[1] && numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3]
             @result = "フォーオブアカインド"
       elsif numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3] && numbers_sort[3] == numbers_sort[4]
@@ -119,8 +120,30 @@ module PokerCheckService
       @result
     end
 
-  end
+    def strong
+      case @result
+      when "ストレートフラッシュ"
+        @strong_number = 1
+      when "フォーオブアカインド"
+        @strong_number = 2
+      when "フルハウス"
+        @strong_number = 3
+      when "フラッシュ"
+        @strong_number = 4
+      when "ストレート"
+        @strong_number = 5
+      when "スリーオブアカインド"
+        @strong_number = 6
+      when "ツーペア"
+        @strong_number = 7
+      when "ワンペア"
+        @strong_number = 8
+      when "ハイカード"
+        @strong_number = 9
+      end
 
+    end
+  end
 end
 
 

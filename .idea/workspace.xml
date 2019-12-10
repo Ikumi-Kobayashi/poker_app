@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/services/poker_check_service.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/survices" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/poker/processing.html.erb" afterDir="false" />
-    </list>
+    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -19,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/poker5@Development__poker5.rcov" NAME="Development: poker5 Coverage Results" MODIFIED="1571799398468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker5" />
+    <SUITE FILE_PATH="coverage/poker5@Development__poker5.rcov" NAME="Development: poker5 Coverage Results" MODIFIED="1575618524494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="poker5" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,43 +35,59 @@
     <session id="-2097250233">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="14" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.closed" value="67" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="21" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.5" value="16" />
+          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="erb" value="3" />
+          <entry key="Gemfile" value="4" />
+          <entry key="erb" value="7" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
+          <entry key="lock" value="1" />
+          <entry key="pid" value="1" />
           <entry key="poker_check_service" value="1" />
-          <entry key="rb" value="32" />
+          <entry key="rb" value="140" />
+          <entry key="rspec" value="2" />
           <entry key="scss" value="1" />
           <entry key="survices" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="RHTML" value="3" />
-          <entry key="Ruby" value="35" />
+          <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="RHTML" value="7" />
+          <entry key="Ruby" value="147" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Gemfile" value="6" />
           <entry key="erb" value="1064" />
           <entry key="poker_check_service" value="137" />
-          <entry key="rb" value="9357" />
+          <entry key="rb" value="19213" />
           <entry key="scss" value="84" />
+          <entry key="txt" value="697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="697" />
           <entry key="RHTML" value="1064" />
-          <entry key="Ruby" value="9494" />
+          <entry key="Ruby" value="19356" />
           <entry key="SCSS" value="84" />
         </counts>
       </usages-collector>
@@ -86,29 +98,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
+        <entry file="file://$PROJECT_DIR$/app/apis/api/base/api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1459">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/v1/check_api_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -122,20 +143,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/check.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="392">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+        <entry file="file://$PROJECT_DIR$/app/apis/api/v1/root_api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -146,6 +176,10 @@
     <findStrings>
       <find>$</find>
       <find>error</find>
+      <find>call</find>
+      <find>cards</find>
+      <find>card</find>
+      <find>@rank</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,9 +191,41 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/poker.scss" />
         <option value="$PROJECT_DIR$/app/services/poker_check_service" />
         <option value="$PROJECT_DIR$/app/views/poker/check.html.erb" />
-        <option value="$PROJECT_DIR$/app/services/poker_check_service.rb" />
+        <option value="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/v1/root.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/v1/articles.rb" />
+        <option value="$PROJECT_DIR$/lib/api.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/root.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/ver1/root.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/ver1/Test.rb" />
+        <option value="$PROJECT_DIR$/lib/api/api.rb" />
+        <option value="$PROJECT_DIR$/lib/api/document_api.rb" />
+        <option value="$PROJECT_DIR$/app/api/v1/cards/check.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/cards_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/services/poker_check_service_api.rb" />
+        <option value="$PROJECT_DIR$/app/services/poker_check_service_api.rb" />
+        <option value="$PROJECT_DIR$/spec/services/poker_check_service_api_spec.rb" />
+        <option value="$PROJECT_DIR$/app/api/v1/check.rb" />
+        <option value="$PROJECT_DIR$/app/api/v1/root.rb" />
+        <option value="$PROJECT_DIR$/app/api/v1/root_api.rb" />
+        <option value="$PROJECT_DIR$/app/api/base/api.rb" />
+        <option value="$PROJECT_DIR$/app/api/v1/check_api.rb" />
+        <option value="$PROJECT_DIR$/app/apis/entity/v1/error_entity.rb" />
+        <option value="$PROJECT_DIR$/app/apis/entity/v1/result_entity.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/apis/entity/v1/response_entity.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/check_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/root_api_spec.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/v1/root_api.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/base/api.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/check_api_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/api_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/poker_controller.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" />
+        <option value="$PROJECT_DIR$/app/services/poker_check_service.rb" />
       </list>
     </option>
   </component>
@@ -182,9 +248,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="954" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -192,7 +257,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +272,53 @@
             <path>
               <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
               <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poker5" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,9 +327,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/apis" />
       <recent name="$PROJECT_DIR$/app/services" />
     </key>
   </component>
@@ -379,12 +486,189 @@
       <workItem from="1571882334886" duration="9397000" />
       <workItem from="1572321562686" duration="11139000" />
       <workItem from="1572486602614" duration="8768000" />
-      <workItem from="1572591302824" duration="2461000" />
+      <workItem from="1572591302824" duration="3953000" />
+      <workItem from="1573192400023" duration="728000" />
+      <workItem from="1573193649055" duration="29000" />
+      <workItem from="1573193680870" duration="70000" />
+      <workItem from="1573193753780" duration="2395000" />
+      <workItem from="1573197652880" duration="5766000" />
+      <workItem from="1573797658626" duration="1384000" />
+      <workItem from="1573799069912" duration="1090000" />
+      <workItem from="1573800258636" duration="1354000" />
+      <workItem from="1573804024318" duration="1000000" />
+      <workItem from="1573807591761" duration="151000" />
+      <workItem from="1574049267130" duration="7364000" />
+      <workItem from="1574059294590" duration="463000" />
+      <workItem from="1574059762870" duration="2734000" />
+      <workItem from="1574064085306" duration="62000" />
+      <workItem from="1574064181176" duration="239000" />
+      <workItem from="1574064432782" duration="385000" />
+      <workItem from="1574066404855" duration="453000" />
+      <workItem from="1574128546548" duration="8075000" />
+      <workItem from="1574141287484" duration="28000" />
+      <workItem from="1574141321853" duration="2786000" />
+      <workItem from="1574308419072" duration="5780000" />
+      <workItem from="1574316685209" duration="2356000" />
+      <workItem from="1574319401214" duration="1220000" />
+      <workItem from="1574320676533" duration="569000" />
+      <workItem from="1574321252737" duration="942000" />
+      <workItem from="1574322233390" duration="2769000" />
+      <workItem from="1574394885466" duration="947000" />
+      <workItem from="1574396391088" duration="1145000" />
+      <workItem from="1574654482352" duration="1105000" />
+      <workItem from="1574656177066" duration="3631000" />
+      <workItem from="1574660500867" duration="67000" />
+      <workItem from="1574660572513" duration="6533000" />
+      <workItem from="1574667671297" duration="3747000" />
+      <workItem from="1574671916841" duration="312000" />
+      <workItem from="1575008309037" duration="949000" />
+      <workItem from="1575009265864" duration="4064000" />
+      <workItem from="1575017455868" duration="93000" />
+      <workItem from="1575258768217" duration="11051000" />
+      <workItem from="1575610689637" duration="842000" />
+      <workItem from="1575616277139" duration="2615000" />
+      <workItem from="1575863327928" duration="4075000" />
+      <workItem from="1575869612792" duration="7501000" />
+      <workItem from="1575946609873" duration="2383000" />
     </task>
+    <task id="LOCAL-00001" summary="重複の書き方を一行にしました。">
+      <created>1574051405184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574051405184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。">
+      <created>1574051933760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574051933760</updated>
+    </task>
+    <task id="LOCAL-00003" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。レビューお願いします。">
+      <created>1574060377958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060377958</updated>
+    </task>
+    <task id="LOCAL-00004" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。">
+      <created>1574060477761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060477761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。&#10;include PokerCheckServiceをpoker_check_service_spec.rbでしても、PokerCheckService.new(&quot;&quot;)で記載するとエラーになってしまったので、そのままの書き方で置いてあります。">
+      <created>1574060683033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060683033</updated>
+    </task>
+    <task id="LOCAL-00006" summary="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。">
+      <created>1575267419374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267419375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。">
+      <created>1575267522094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267522097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。">
+      <created>1575267639598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575267639598</updated>
+    </task>
+    <task id="LOCAL-00009" summary="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、仏様な処理ごとに分割しました。">
+      <created>1575273793787</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575273793788</updated>
+    </task>
+    <task id="LOCAL-00010" summary="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、必要な処理ごとに分割しました。&#10;entityを用いて処理を書き直しました。">
+      <created>1575274934851</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575274934851</updated>
+    </task>
+    <task id="LOCAL-00011" summary="internal server errorを表記しました。">
+      <created>1575947006460</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947006460</updated>
+    </task>
+    <task id="LOCAL-00012" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。">
+      <created>1575947115955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947115955</updated>
+    </task>
+    <task id="LOCAL-00013" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。">
+      <created>1575947407495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947407495</updated>
+    </task>
+    <task id="LOCAL-00014" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。">
+      <created>1575947698563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947698563</updated>
+    </task>
+    <task id="LOCAL-00015" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。&#10;nil後のスペースを消しました。">
+      <created>1575947791998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947791998</updated>
+    </task>
+    <task id="LOCAL-00016" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。">
+      <created>1575947981356</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947981356</updated>
+    </task>
+    <task id="LOCAL-00017" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。">
+      <created>1575948582485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1575948582485</updated>
+    </task>
+    <task id="LOCAL-00018" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。">
+      <created>1575949369364</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949369368</updated>
+    </task>
+    <task id="LOCAL-00019" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。&#10;不要なファイルを削除しました。">
+      <created>1575949437945</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575949437945</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113001000" />
+    <option name="totallyTimeSpent" value="215706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,45 +680,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.16056167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.2716728" />
       <window_info id="Structure" order="1" sideWeight="0.5206972" side_tool="true" weight="0.22433132" />
       <window_info id="Favorites" order="2" sideWeight="0.5219612" side_tool="true" weight="0.15873016" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299285" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39721254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299285" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.491453" weight="0.34933606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329849" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32868758" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49956858" visible="true" weight="0.29965156" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004314" side_tool="true" weight="0.26442307" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3278856" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" visible="true" weight="0.33707866" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51404154" side_tool="true" weight="0.23289071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32959446" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.16056167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.26862028" />
       <window_info id="Structure" order="1" sideWeight="0.5206972" side_tool="true" weight="0.22433132" />
       <window_info id="Favorites" order="2" sideWeight="0.5219612" side_tool="true" weight="0.15873016" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299285" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39721254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299285" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.491453" weight="0.34933606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329849" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32868758" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49956858" visible="true" weight="0.26353422" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004314" side_tool="true" weight="0.26442307" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3278856" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" visible="true" weight="0.33707866" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51404154" side_tool="true" weight="0.23289071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -447,98 +730,65 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重複の書き方を一行にしました。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。レビューお願いします。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。" />
+    <MESSAGE value="重複の書き方を一行にしました。&#10;３つあった　it'カードが５個じゃないとき' をもっと具体的にしました。&#10;controllerのテストも書いたのですが、うまくいきません。（poker_controller_spec.rbの11~19行目のメモにしてあるところ）レビューお願いします。&#10;include PokerCheckServiceをpoker_check_service_spec.rbでしても、PokerCheckService.new(&quot;&quot;)で記載するとエラーになってしまったので、そのままの書き方で置いてあります。" />
+    <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。" />
+    <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。" />
+    <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。" />
+    <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、仏様な処理ごとに分割しました。" />
+    <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、必要な処理ごとに分割しました。&#10;entityを用いて処理を書き直しました。" />
+    <MESSAGE value="internal server errorを表記しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに変更しました。&#10;nil後のスペースを消しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。&#10;不要なファイルを削除しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。&#10;不要なファイルを削除しました。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/poker/processing.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/apis/api/ver1/Test.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api/ver1/root.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/apis/api/v1/cards_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api/root.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/cards/check.rb" />
+    <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/activesupport-5.2.3/lib/active_support/callbacks.rb">
+    <entry file="file://$PROJECT_DIR$/app/api/v1/cards/check.rb" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/grape-1.2.4/lib/grape/middleware/error.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_controller/metal/instrumentation.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/grape-1.2.4/lib/grape/middleware/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_dispatch/middleware/cookies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="672" selection-start-line="672" selection-end-line="672" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rack-2.0.7/lib/rack/session/abstract/id.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_dispatch/http/content_security_policy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rack-2.0.7/lib/rack/head.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rack-2.0.7/lib/rack/etag.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/rack-2.0.7/lib/rack/tempfile_reaper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_dispatch/journey/router.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="192" selection-start-line="192" selection-end-line="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.2.3/lib/action_view/rendering.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/activesupport-5.2.3/lib/active_support/notifications/instrumenter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -549,44 +799,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionview-5.2.3/lib/action_view/template.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="204">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/survices">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/poker.scss">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/grape-1.2.4/lib/grape/endpoint.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="196">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs23/basic_object.rb">
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_api.rb" />
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/poker_check_service_api.rb" />
+    <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_api_spec.rb" />
+    <entry file="file://$PROJECT_DIR$/app/api/v1/root.rb" />
+    <entry file="file://$PROJECT_DIR$/app/api/v1/check.rb" />
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/cardentity.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/errorentity.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/card_entity.rb" />
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/poker_check_service_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <caret line="231" column="8" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="8" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/response_entity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/error_entity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/check.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
+    <entry file="file://$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_controller/test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5010">
+          <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/result_entity.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/root_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/v1/api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/v1/check_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -597,24 +943,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/base/api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/api/document_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/api/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1459">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="392">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
         </state>
       </provider>
     </entry>
