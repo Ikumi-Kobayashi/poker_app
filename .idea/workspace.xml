@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apis/api/base/api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/api/base/api.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/poker_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/poker_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/poker_check_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/poker_check_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/v1/api_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/v1/api_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -55,13 +58,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Gemfile" value="4" />
-          <entry key="erb" value="5" />
+          <entry key="erb" value="6" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="lock" value="1" />
           <entry key="pid" value="1" />
           <entry key="poker_check_service" value="1" />
-          <entry key="rb" value="137" />
+          <entry key="rb" value="138" />
           <entry key="rspec" value="2" />
           <entry key="scss" value="1" />
           <entry key="survices" value="2" />
@@ -71,8 +74,8 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="RHTML" value="5" />
-          <entry key="Ruby" value="144" />
+          <entry key="RHTML" value="6" />
+          <entry key="Ruby" value="145" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
@@ -81,16 +84,16 @@
           <entry key="Gemfile" value="6" />
           <entry key="erb" value="1064" />
           <entry key="poker_check_service" value="137" />
-          <entry key="rb" value="19038" />
+          <entry key="rb" value="19086" />
           <entry key="scss" value="84" />
-          <entry key="txt" value="459" />
+          <entry key="txt" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="459" />
+          <entry key="PLAIN_TEXT" value="546" />
           <entry key="RHTML" value="1064" />
-          <entry key="Ruby" value="19181" />
+          <entry key="Ruby" value="19229" />
           <entry key="SCSS" value="84" />
         </counts>
       </usages-collector>
@@ -110,20 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/apis/api/base/api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/v1/api_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,17 +125,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/v1/check_api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
+        <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="-1534">
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -149,26 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/apis/api/v1/root_api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.2.3/lib/action_controller/test_case.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5010">
-              <caret line="334" column="6" selection-start-line="334" selection-start-column="6" selection-end-line="334" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -176,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -212,7 +197,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/poker.scss" />
         <option value="$PROJECT_DIR$/app/services/poker_check_service" />
         <option value="$PROJECT_DIR$/app/views/poker/check.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/poker_controller.rb" />
         <option value="$PROJECT_DIR$/spec/services/poker_check_service_spec.rb" />
         <option value="$PROJECT_DIR$/app/apis/api/v1/root.rb" />
         <option value="$PROJECT_DIR$/app/apis/api/v1/articles.rb" />
@@ -229,7 +213,6 @@
         <option value="$PROJECT_DIR$/spec/services/poker_check_service_api.rb" />
         <option value="$PROJECT_DIR$/app/services/poker_check_service_api.rb" />
         <option value="$PROJECT_DIR$/spec/services/poker_check_service_api_spec.rb" />
-        <option value="$PROJECT_DIR$/app/services/poker_check_service.rb" />
         <option value="$PROJECT_DIR$/app/api/v1/check.rb" />
         <option value="$PROJECT_DIR$/app/api/v1/root.rb" />
         <option value="$PROJECT_DIR$/app/api/v1/root_api.rb" />
@@ -239,14 +222,16 @@
         <option value="$PROJECT_DIR$/app/apis/entity/v1/result_entity.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/apis/entity/v1/response_entity.rb" />
-        <option value="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" />
         <option value="$PROJECT_DIR$/spec/v1/check_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/v1/root_api_spec.rb" />
         <option value="$PROJECT_DIR$/app/apis/api/v1/root_api.rb" />
-        <option value="$PROJECT_DIR$/spec/v1/api_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/v1/check_api_spec.rb" />
         <option value="$PROJECT_DIR$/app/apis/api/base/api.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/check_api_spec.rb" />
+        <option value="$PROJECT_DIR$/app/services/poker_check_service.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/poker_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/v1/api_spec.rb" />
+        <option value="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" />
       </list>
     </option>
   </component>
@@ -294,43 +279,14 @@
               <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
               <item name="poker5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
               <item name="poker5" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="apis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poker5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="poker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="poker5" type="b2602c69:ProjectViewProjectNode" />
@@ -585,7 +541,7 @@
       <workItem from="1575616277139" duration="2615000" />
       <workItem from="1575863327928" duration="4075000" />
       <workItem from="1575869612792" duration="7501000" />
-      <workItem from="1575946609873" duration="190000" />
+      <workItem from="1575946609873" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="重複の書き方を一行にしました。">
       <created>1574051405184</created>
@@ -657,11 +613,32 @@
       <option name="project" value="LOCAL" />
       <updated>1575274934851</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="internal server errorを表記しました。">
+      <created>1575947006460</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947006460</updated>
+    </task>
+    <task id="LOCAL-00012" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。">
+      <created>1575947115955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947115955</updated>
+    </task>
+    <task id="LOCAL-00013" summary="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。">
+      <created>1575947407495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575947407495</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213513000" />
+    <option name="totallyTimeSpent" value="214248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,8 +651,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.2716728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.2716728" />
       <window_info id="Structure" order="1" sideWeight="0.5206972" side_tool="true" weight="0.22433132" />
       <window_info id="Favorites" order="2" sideWeight="0.5219612" side_tool="true" weight="0.15873016" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -688,7 +666,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3278856" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" visible="true" weight="0.33707866" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" visible="true" weight="0.33707866" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51404154" side_tool="true" weight="0.23289071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -734,7 +712,10 @@
     <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。" />
     <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、仏様な処理ごとに分割しました。" />
     <MESSAGE value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、必要な処理ごとに分割しました。&#10;entityを用いて処理を書き直しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="apiのファイル名をcheck_api.rb、root_api.rbに変更しました。&#10;新たに作ったサービスを削除し、既存のサービスにstrongアクションを追加する形にしました。&#10;api_resultの変数定義の場所を変更しました。&#10;zipメソッドでまとめて処理していたところを、必要な処理ごとに分割しました。&#10;entityを用いて処理を書き直しました。" />
+    <MESSAGE value="internal server errorを表記しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。" />
+    <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -770,13 +751,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid" />
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/poker/check.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/cards/check.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb" />
@@ -871,13 +845,6 @@
     <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/response_entity.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -899,20 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/root_api.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/poker_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -927,31 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/apis/entity/v1/result_entity.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/v1/check_api_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/v1/api_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -962,10 +894,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/poker/check.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/root_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1534">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/v1/api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/apis/api/base/api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/v1/check_api_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/check_api.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,7 @@ module PokerCheckService
     end
 
 
-    def error
+    def valid?
         #カードが５個未満
        if @card[0] == nil or @card[1] == nil or @card[2] == nil or @card[3] == nil or @card[4] == nil
          @error_message = "5つのカード指定文字を半角スペース区切りで入力してください。（例：S1 H3 D9 C13 S11）"

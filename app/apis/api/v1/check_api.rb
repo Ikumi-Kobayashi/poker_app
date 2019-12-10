@@ -19,7 +19,7 @@ module V1
         card_array = []
         cards.each do |card|
           check_service = PokerCheckService.new(card)
-          @error_message = check_service.error
+          @error_message = check_service.valid?
           card_array.push(card)
           if @error_message.present?
             error_messages.push(@error_message)
