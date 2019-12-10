@@ -23,8 +23,8 @@ module V1
           card_array.push(card)
           if @error_message.present?
             error_messages.push(@error_message)
-            results.push(nil )
-            strong_numbers.push(10 )
+            results.push(nil)
+            strong_numbers.push(10)
           else
             error_messages.push(nil)
             judge_service = PokerCheckService.new(card)
