@@ -46,7 +46,7 @@ module PokerCheckService
             @error_message = @error_message_n
           end
         #カードの重複
-          if @card.count - @card.uniq.count > 0
+          if @card.uniq.count != @card.count
             @error_message = "カードが重複しています。"
           end
        end
@@ -63,11 +63,11 @@ module PokerCheckService
           numbers_sort[3] == numbers_sort[2] + 1 &&
           numbers_sort[2] == numbers_sort[1] + 1 &&
           numbers_sort[1] == numbers_sort[0] + 1 &&
-          suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-          @result = "ストレートフラッシュ"
+          suits.uniq.size == 1
+        @result = "ストレートフラッシュ"
       elsif numbers_sort == [1,10,11,12,13] &&
-            suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-            @result = "ストレートフラッシュ"
+            suits.uniq.size == 1
+        @result = "ストレートフラッシュ"
         #ストレートのロジック
       elsif numbers_sort[4] == numbers_sort[3] + 1 &&
             numbers_sort[3] == numbers_sort[2] + 1 &&
@@ -77,8 +77,8 @@ module PokerCheckService
       elsif numbers_sort == [1,10,11,12,13]
             @result = "ストレート"
         #フラッシュのロジック
-      elsif suits[0] == suits[1] && suits[1] == suits[2] && suits[2] == suits[3] && suits[3] == suits[4]
-            @result = "フラッシュ"
+      elsif suits.uniq.size == 1
+        @result = "フラッシュ"
         #ペア系
         #フォーオブアカインドのロジック
       elsif numbers_sort[0] == numbers_sort[1] && numbers_sort[1] == numbers_sort[2] && numbers_sort[2] == numbers_sort[3]
