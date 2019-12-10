@@ -28,7 +28,7 @@ module V1
           else
             error_messages.push(nil)
             judge_service = PokerCheckService.new(card)
-            @result = judge_service.result
+            @result = judge_service.judge
             @strong_number = judge_service.strong
             results.push(@result)
             strong_numbers.push(@strong_number)

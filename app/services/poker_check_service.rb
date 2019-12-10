@@ -53,7 +53,7 @@ module PokerCheckService
        @error_message
     end
 
-    def result
+    def judge
        #変数定義
       suits = [ @card[0][0] , @card[1][0] , @card[2][0] , @card[3][0] , @card[4][0] ]
       numbers = [ @card[0][1,2].to_i , @card[1][1,2].to_i , @card[2][1,2].to_i , @card[3][1,2].to_i , @card[4][1,2].to_i ]
