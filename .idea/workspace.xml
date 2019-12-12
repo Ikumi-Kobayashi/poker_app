@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apis/api/base/api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/api/base/api.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/api/v1/check_api.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/apis/api/v1/root_api.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/api/v1/root_api.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/poker_check_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/poker_check_service.rb" afterDir="false" />
-    </list>
+    <list default="true" id="0d86fe59-0745-43a1-899c-73c5a3e43f9d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -43,7 +37,7 @@
         <counts>
           <entry key="project.closed" value="68" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="21" />
+          <entry key="project.open.time.1" value="22" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -52,7 +46,7 @@
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.opened" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,12 +81,12 @@
           <entry key="poker_check_service" value="137" />
           <entry key="rb" value="19519" />
           <entry key="scss" value="84" />
-          <entry key="txt" value="697" />
+          <entry key="txt" value="738" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="697" />
+          <entry key="PLAIN_TEXT" value="738" />
           <entry key="RHTML" value="1064" />
           <entry key="Ruby" value="19662" />
           <entry key="SCSS" value="84" />
@@ -135,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/development.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="295650">
               <caret line="19710" column="35" selection-start-line="19710" selection-start-column="35" selection-end-line="19710" selection-end-column="35" />
             </state>
           </provider>
@@ -153,8 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="675">
+              <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -272,8 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +348,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,6 +561,7 @@
       <workItem from="1575863327928" duration="4075000" />
       <workItem from="1575869612792" duration="7501000" />
       <workItem from="1575946609873" duration="2383000" />
+      <workItem from="1576128899642" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="重複の書き方を一行にしました。">
       <created>1574051405184</created>
@@ -701,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575949437945</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="urlを変更し、10行以上のロジックをプライベートメソッドに移しました。">
+      <created>1576128955353</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576128955353</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217752000" />
+    <option name="totallyTimeSpent" value="217908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,7 +721,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.17948718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47803882" visible="true" weight="0.18131869" />
       <window_info id="Structure" order="1" sideWeight="0.5206972" side_tool="true" weight="0.22433132" />
       <window_info id="Favorites" order="2" sideWeight="0.5219612" side_tool="true" weight="0.15873016" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -732,7 +734,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3278856" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" weight="0.2533197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4859585" visible="true" weight="0.2533197" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51404154" side_tool="true" weight="0.23289071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -787,7 +789,8 @@
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。" />
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。" />
     <MESSAGE value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。&#10;不要なファイルを削除しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="internal server errorを表記しました。&#10;クラス名をキャメルケースに変更しました。&#10;変数名を○○_arrayの形から、○○sの形に変更しました。&#10;サービスのerrorメソッドの名前をvalid?メソッドに,resultメソッドの名前をjudgeメソッドに変更しました。&#10;nil後のスペースを消しました。&#10;フラッシュの書き方を変更しました。&#10;case文をstrongアクションに導入しました。&#10;不要なファイルを削除しました。" />
+    <MESSAGE value="urlを変更し、10行以上のロジックをプライベートメソッドに移しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="urlを変更し、10行以上のロジックをプライベートメソッドに移しました。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -801,9 +804,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/cards/check.rb" />
     <entry file="file://$PROJECT_DIR$/app/controllers/cards_controller.rb" />
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
@@ -962,41 +962,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/api/document_api.rb" />
     <entry file="file://$PROJECT_DIR$/lib/api/api.rb" />
-    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/cards/check.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apis/api.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apis/api/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/cards/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19710" column="35" selection-start-line="19710" selection-start-column="35" selection-end-line="19710" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/cards/check.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api/base.rb" />
+    <entry file="file://$PROJECT_DIR$/app/apis/api/v1/cards/card.rb" />
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1018,17 +987,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295650">
+          <caret line="19710" column="35" selection-start-line="19710" selection-start-column="35" selection-end-line="19710" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/apis/api/base/api.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +1008,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/poker_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/bootsnap-1.4.5/lib/bootsnap/load_path_cache/core_ext/active_support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/poker_check_service.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="675">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
         </state>
       </provider>
     </entry>
