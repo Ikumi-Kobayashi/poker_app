@@ -1,5 +1,8 @@
 module Base
   class API < Grape::API
+    prefix :api
+    format :json
+
     rescue_from Grape::Exceptions::Base do
       error!({error: "400 Bad Request：不正なリクエストです"}, 400)
     end

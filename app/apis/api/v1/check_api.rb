@@ -10,8 +10,8 @@ module V1
       requires :cards, type: Array
     end
 
-    resources :check_api do
-      post '/' do
+    resources :cards do
+      post '/check' do
         cards = params[:cards]
         error_messages = []
         results = []
